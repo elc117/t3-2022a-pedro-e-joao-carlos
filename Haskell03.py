@@ -43,4 +43,4 @@ def trSpaces(word):
 	
 
 def dotProd(lista1, lista2):
-  return sum([x[0]*x[1] for x in zip(lista1, lista2)])
+	return sum([x[0]*x[1] for x in zip(lista1, lista2)])
