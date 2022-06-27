@@ -2,11 +2,11 @@ import math
 
 
 def sum_squares(x, y):
-  return x**2 + y**2
+	return x**2 + y**2
 
 
 def isElderly(idade):
-  return idade > 65
+	return idade > 65
 
 
 def htmlItem(x):
@@ -14,7 +14,7 @@ def htmlItem(x):
 
 
 def startsWithA(string):
-  return string[0] == 'A' or 'a'
+	return string[0] == 'A' or 'a'
 
 
 def isVowel(x):
@@ -23,7 +23,7 @@ def isVowel(x):
 	
 
 def hasEqHeads(x, y):
-  return x[0] == y[0]
+	return x[0] == y[0]
   
 
 def itemize(lista):
@@ -31,7 +31,7 @@ def itemize(lista):
 
 
 def onlyElderly(lista):
-  return list(filter(isElderly, lista))
+	return list(filter(isElderly, lista))
 
 
 def onlyVowels(lista):
@@ -39,13 +39,13 @@ def onlyVowels(lista):
 
 
 def identifySpaces(char):
-  if char == ' ':
-    return 1
-  else:
-    return 0
+	if char == ' ':
+		return 1
+	else:
+		return 0
 
 def countSpaces(lista):
-  return sum(map(identifySpaces, lista))
+	return sum(map(identifySpaces, lista))
 
 
 def onlyLongWords(lista):
