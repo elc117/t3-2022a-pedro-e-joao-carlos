@@ -21,7 +21,7 @@ def idadesEm(idades, atual):
 
 
 def onlyShorts(lista):
-  return list(filter(lambda x: len(x) < 5, lista))
+	return list(filter(lambda x: len(x) < 5, lista))
 
 
 def changeNames(nomes):
